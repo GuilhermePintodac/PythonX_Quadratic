@@ -1,0 +1,19 @@
+[project]
+name = "quadratic"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "GuilhermePintodac",email = "guilherme.pintodacunhadamata@heig-vd.ch"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "quadratic", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
