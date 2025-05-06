@@ -1,5 +1,5 @@
 import argparse
-from quadratic.solver import solve_quadratic
+from src.quadratic import solve_quadratic
 
 
 def main():

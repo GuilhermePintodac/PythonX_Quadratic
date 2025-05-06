@@ -1,1 +1,1 @@
-from quadratic import solve_quadratic
+from .quadratic import solve_quadratic
